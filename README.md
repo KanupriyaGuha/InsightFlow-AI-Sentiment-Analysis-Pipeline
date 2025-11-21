@@ -1,57 +1,41 @@
-# Tech Knowledge AI 🤖
+# InsightFlow AI 📊
 
-Tech Knowledge AI is a smart assistant designed to enhance helpdesk efficiency and elevate user experience.
-It delivers instant, context‑aware responses, integrates seamlessly with APIs and databases, and minimizes ticket backlog by automating repetitive queries.
+InsightFlow AI is a sentiment analysis pipeline built to extract actionable insights from textual data.  
+It leverages advanced NLP and machine learning techniques to classify sentiment, visualize trends, and streamline text-based data analysis.
 
 ## 🚀 Key Features
-
-- AI-powered responses for technical and customer queries
-
-- Knowledge retrieval with source citations
-
-- API and SQL database integration
-
-- Lightweight, browser-based interface for easy deployment
+- Automated text preprocessing (cleaning, tokenization, stopword removal)
+- Sentiment classification using modern NLP models
+- Data visualization of sentiment trends
+- Scalable pipeline suitable for large datasets
 
 ## 🔗 Live Demo
-
-👉 Explore Tech Knowledge AI
+👉 [Explore Support Sphere AI](https://insightflowai.base44.app)
 
 ## ⚙️ Getting Started
-
-This project demonstrates how modern AI assistants can be deployed as scalable web applications.
+This project demonstrates how NLP and ML models can be used to analyze text and generate insights.  
 To replicate:
-1. Connect a large language model backend (e.g., GPT‑4, Claude).
-2. Configure workflows for knowledge retrieval and API integrations.
-3. Deploy the assistant as a web application.
-4. Share the demo link with your users.
+1. Clone the repository.
+2. Install dependencies from `requirements.txt`.
+3. Run the pipeline on sample data.
+4. Analyze sentiment outputs and visualize results.
 
 ## 🏗️ Architecture Overview
 
-Tech Knowledge AI uses a modular architecture combining LLMs, retrieval workflows, and a lightweight web interface.
+InsightFlow AI is designed with a modular architecture that combines text preprocessing, NLP models, and visualization modules.
 
 ### Components
-
-- **LLM Backend:** Handles natural language understanding and response generation (e.g., GPT‑4, Claude).
-
-- **Knowledge Retrieval:** Embedding-based search retrieves relevant documents with grounded answers and citations.
-
-- **API & SQL Integrations:** Connects to external systems for dynamic query handling.
-
-- **Web Interface:** Browser-based UI enabling seamless interaction with the assistant.
+- **Data Preprocessing**: Cleans and tokenizes text to prepare it for analysis.
+- **Sentiment Analysis**: Applies machine learning and transformer-based NLP models to classify sentiment.
+- **Visualization**: Generates charts and graphs to summarize sentiment trends.
+- **Pipeline Orchestration**: Ensures scalable and reproducible execution for datasets of any size.
 
 ### Workflow
-
-1. **User Query** → Captured via the web interface.
-
-2. **Intent Recognition** → LLM decides whether to answer directly, query the knowledge base, or call an API.
-
-3. **Retrieval/Integration** → Relevant documents or API results are fetched.
-
-4. **Response Generation** → LLM generates a context-aware answer with source attribution.
-
-5. **Delivery** → Answer is displayed instantly in the web interface.
+1. **Data Input** → Text files or datasets are loaded into the pipeline.  
+2. **Preprocessing** → Text is cleaned, tokenized, and normalized.  
+3. **Sentiment Classification** → NLP models predict positive, neutral, or negative sentiment.  
+4. **Visualization & Reporting** → Results are visualized and exported for analysis.  
+5. **Insights Delivery** → Actionable insights are ready for stakeholders or further integration.
 
 ## 📜 License
-
 MIT License
